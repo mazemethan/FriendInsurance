@@ -5,7 +5,7 @@ import {
 import { Popover, Transition } from '@headlessui/react'
 import React from 'react';
 const Product = React.lazy(() => import('./product.jsx'));
-const Main = React.lazy(() => import('./product.jsx'));
+const Main = React.lazy(() => import('./main.jsx'));
 import Logo from '../pic/logo.png'
 
 // home page this is navbar
@@ -34,10 +34,11 @@ export default function Example() {
             </Link>
           </div>
         </div>
-      </div>
+      </div> 
+      
         {/* outlet= page */}
      <Outlet/>
-   
+     
    
     
     </Popover>

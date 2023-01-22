@@ -1,4 +1,4 @@
-import Home from'../page/home.jsx'
+import Navbar from'../page/Navbar.jsx'
 import {
     createBrowserRouter,
     RouterProvider,Link,Outlet, BrowserRouter, Routes, Route
@@ -10,19 +10,19 @@ const Main = React.lazy(() => import('../page/main.jsx'));
 const Contact = React.lazy(() => import('../page/contact.jsx'));
 export default function App(){
     return(
-        // new page
-    <BrowserRouter >
+        // new page 
+    <BrowserRouter>
     <React.Suspense fallback={<p>loading</p>}>
         <Routes>
             {/*  path =''= <showing in url*/}
             {/* element =page (outlet) */}
-            <Route path='/' element={<Home/>}>
+            <Route path='/' element={<Navbar/>}>
                     <Route path='Main' element={<Main/>}/>
                     <Route path='Product' element={<Product/>}/>
                     <Route path='Contact' element={<Contact/>}/>
-            
             </Route>
         </Routes>
+        
         </React.Suspense>
     </BrowserRouter>
     );

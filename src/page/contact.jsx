@@ -3,13 +3,12 @@
 function Contact (){
     return(
         <>
-        
         <h1 class='font-press-start font-medium leading-tight text-3xl'>ติดต่อทำประกัน</h1>
        <div class="flex items-center justify-center p-12">
-   {/* Author: FormBold Team  */}
-  {/*  Learn More: https://formbold.com */}
+    {/* Author: FormBold Team  */}
+    {/*  Learn More: https://formbold.com */}
   <div class="mx-auto w-full max-w-[550px]">
-    <form action="https://formbold.com/s/FORM_ID" method="POST">
+    <form action="./success" method="GET">
         {/* name surname*/}
         <div class="-mx-3 flex flex-wrap">
             <div class="w-full px-3 sm:w-1/2">
@@ -180,6 +179,7 @@ function Contact (){
         </button>
       </div>
     </form>
+    
   </div>
 </div>
         </>

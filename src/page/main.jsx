@@ -1,7 +1,7 @@
 import Banner1 from '../pic/banner1.jpg';
 import Banner2 from '../pic/banner2.gif';
 import Pink from'../pic/id44.jpg';
-
+import './product.jsx'
 function Main (){
     return(
         <>
@@ -78,7 +78,7 @@ function Main (){
                     </div>
                 </div>
                 <figure class="relative max-w-sm transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0">
-                        <a href="./product.jsx">
+                        <a href="./product">
                             <img class="rounded-lg" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/content-gallery-3.png" alt="image description"/>
                         </a>
                             <figcaption class="absolute px-4 text-lg text-white bottom-6">

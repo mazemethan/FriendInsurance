@@ -7,12 +7,12 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import Routee from'../src/route/index.jsx';
-import Home from'./page/home.jsx';
+import Navbar from'./page/Navbar.jsx';
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Home />,
+    element: <Navbar />,
 
   },
 ]);
